@@ -107,7 +107,7 @@ webroot-path = /var/www/letsencrypt
 domains = example.com, www.example.com
 
 # register certs with the following email address
-email = ingeniouskey@gmail.com
+email = example@gmail.com
 
 # use a 4096 bit RSA key instead of 2048
 rsa-key-size = 4096
@@ -129,3 +129,9 @@ rsa-key-size = 4096
 
 * Descomentar las ĺineas de `ssl_certificate` y `ssl_certificate_key` del archivo `/etc/nginx/sites-available/[PROJECT_NAME]`
 * Reiniciar nginx: `service nginx reload`
+
+Crédito
+--------
+
+Idea original y desarrollo: [@codestation](https://github.com/codestation)
+
